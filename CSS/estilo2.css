@@ -29,7 +29,7 @@
 }
 
 .btn-github:hover{
-    background:#0d6efd;
+    background:#000000;
     color:#fff;
     transform:scale(1.05);
 }
@@ -244,3 +244,56 @@
     text-shadow:0 2px 8px rgba(0,0,0,0.45);
 }
 
+body {
+  background:#111;
+}
+
+/* IMAGEM DO CARROSSEL */
+.banner-img {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+/* TÍTULO */
+.title-top-left {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-shadow: 0 2px 6px rgba(0,0,0,.7);
+}
+
+/* BOTÃO GITHUB */
+.btn-github {
+  background: #00000000;
+  color: #fff;
+  padding: 10px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+/* BOTÃO ENGENHAGEM */
+.btn-tech {
+  background: transparent;
+  border: 2px solid #ffffff00;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* SVG ENGENHAGEM */
+.icon-gear {
+  width: 22px;
+  height: 22px;
+  fill: white;
+  transition: transform .6s ease;
+}
+
+.btn-tech:hover .icon-gear {
+  transform: rotate(180deg);
+}
